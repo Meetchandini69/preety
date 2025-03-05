@@ -472,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero h1 {
+#hero h1, #hero h2 {
   display: inline-block;
   margin: 0;
   font-size: 48px;
@@ -488,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #863A9A;
 }
 
-#hero h2 {
+#hero p {
   color: #eee;
   margin: 41px 0 41px;
   font-size: 22px;
@@ -690,7 +690,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   left: 0;
   background-size: cover;
-  z-index: 5;
+  z-index: -1;
 }
 .slider .parallax-slider .swiper-slide .bg-img h1,
 .slider .parallax-slider .swiper-slide .bg-img h2,
