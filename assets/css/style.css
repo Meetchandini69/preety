@@ -2130,6 +2130,9 @@ section {
   padding:23px;  
   margin-bottom: 41px;
 }
+.inner-section-style p {
+  color: #f1f1f1;
+}
 
 .inner-page .section-title p {
   margin:0px;
