@@ -1269,12 +1269,13 @@ h6 {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.menu .menu-content a {
+.menu .menu-content p {
   padding-right: 10px;
   position: relative;
   z-index: 3;
   font-weight: 700;
   color: white;
+  margin-bottom: 0;
   transition: 0.3s;
 }
 
