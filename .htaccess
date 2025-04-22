@@ -59,4 +59,10 @@ FileETag None
     # Redirect non-www to www
     RewriteCond %{HTTP_HOST} ^www.preetyfungirls\.com [NC]
     RewriteRule ^ https://www.preetyfungirls.com%{REQUEST_URI} [L,R=301]
+
+    # Force HTTPS and www
+    RewriteCond %{HTTPS} off [OR]
+    RewriteCond %{HTTP_HOST} !^www\. [NC]
+    RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
 </IfModule>
